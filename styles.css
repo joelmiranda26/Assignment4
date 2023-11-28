@@ -82,7 +82,7 @@ main {
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 768px) {
     #dashboard, #tmr_dashboard {
             background-color: #ffcc00;
             max-width: 100%; /* Set maximum width to 100% for responsiveness */
