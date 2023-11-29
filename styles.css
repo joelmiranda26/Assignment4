@@ -43,7 +43,7 @@ main {
     margin-right: 235px; /* Add a margin on the right side of the first column */
 
     background-color: #ffcc00;
-    max-width: 250px;
+    max-width: 25%;
     transition: transform 0.3s ease;
     overflow: hidden;
 }
