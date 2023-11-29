@@ -43,7 +43,7 @@ main {
     margin-right: 235px; /* Add a margin on the right side of the first column */
 
     background-color: #ffcc00;
-    max-width: 25%;
+    max-width: 250px;
     transition: transform 0.3s ease;
     overflow: hidden;
 }
@@ -65,7 +65,35 @@ main {
 #dashboard:hover {
     transform: scale(1.1); /* Increase the size on hover */
 }
+@media (min-width: 768px) {
+    #dashboard, #tmr_dashboard {
+        width: 50%;
+    }
 
+    #tmr_dashboard {
+        float: right;
+        margin-left: 0;
+        /*background-color: rgb(0, 255, 166);*/
+    }
+
+    #dashboard {
+        float: left;
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 500px) {
+    #dashboard, #tmr_dashboard {
+            background-color: #ffcc00;
+            max-width: 100%; /* Set maximum width to 100% for responsiveness */
+            margin: 0px;
+  
+            transition: transform 0.3s ease;
+            overflow: hidden;
+    }
+
+    
+}
 
 #error-message {
     margin-top: 20px;
