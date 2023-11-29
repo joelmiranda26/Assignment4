@@ -67,19 +67,6 @@ main {
 }
 
 
-@media (max-width: 500px) {
-    #dashboard, #tmr_dashboard {
-            background-color: #ffcc00;
-            max-width: 100%; /* Set maximum width to 100% for responsiveness */
-            margin: 0px;
-  
-            transition: transform 0.3s ease;
-            overflow: hidden;
-    }
-
-    
-}
-
 #error-message {
     margin-top: 20px;
     color: #ff0000;
